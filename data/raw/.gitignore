@@ -1,0 +1,11 @@
+# keep raw snapshots out of Git
+data/raw/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.env
