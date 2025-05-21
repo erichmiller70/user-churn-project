@@ -2,8 +2,8 @@
 import pandas as pd, pathlib, requests, io
 from extract_base import save_df
 
-URL = ("https://raw.githubusercontent.com/blastchar/"
-       "telco-customer-churn/master/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+URL = ("https://raw.githubusercontent.com/SohelRaja/Customer-Churn-Analysis/"
+       "master/Decision%20Tree/WA_Fn-UseC_-Telco-Customer-Churn.csv")
 
 def main():
     resp = requests.get(URL, timeout=30)
