@@ -1,0 +1,3 @@
+file,extracted_at_utc,rows
+data\raw\api__nyc_311_tickets__20250521_004000.parquet,20250521_004001,50000
+data\raw\ecb__fx_rates__20250521_004028.parquet,20250521_004028,2801
